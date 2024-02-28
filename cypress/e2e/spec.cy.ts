@@ -11,4 +11,6 @@ describe('Login', () => {
     start_page.login();
     front_page.header().should('contain', 'merkle-qa-demo-store')
   })
+
 })
+

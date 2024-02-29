@@ -165,7 +165,10 @@
       "inventory_low_stock_show_count": "Lav lagerbeholdning: {{ quantity }} igjen",
       "inventory_out_of_stock": "Ikke på lager",
       "inventory_out_of_stock_continue_selling": "På lager",
-      "sku": "SKU"
+      "sku": "SKU",
+      "selling_plans": {
+        "one_time_purchase": "Engangskjøp"
+      }
     },
     "modal": {
       "label": "Mediegalleri"

@@ -14,4 +14,13 @@ describe('Accessibility', () => {
         cy.injectAxe();
         cy.checkA11y();
     })
+
+    it('pass with empty alt', () => {
+        start_page.visit();
+        //@ts-ignore
+        start_page.login();
+        front_page.search_for_product();
+        cy.injectAxe();
+        cy.checkA11y('.media--transparent');
+    })
 })

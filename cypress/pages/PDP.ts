@@ -4,7 +4,11 @@ class PDP {
     }
 
     your_cart(){
-        return cy.get('.totals__subtotal-value')
+        return cy.get('.totals__subtotal-value');
+    }
+
+    product_title(){
+        return cy.get('.product__title');
     }
 }
 

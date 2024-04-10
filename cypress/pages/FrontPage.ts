@@ -12,7 +12,7 @@ class FrontPage {
     }
 
     go_to_product(){
-        cy.get('#CardLink-template--22014400594215__featured_collection-8981522940199').click();
+        cy.get('#CardLink-template--16820985364658__featured_collection-7968564215986').click();
     }
 
     search_for_product(){

@@ -9,7 +9,7 @@ describe('Login', () => {
     start_page.visit();
     //@ts-ignore
     start_page.login();
-    front_page.header().should('contain', 'merkle-qa-demo-store')
+    front_page.header().should('contain', 'drias-personal-store')
   })
 
 })

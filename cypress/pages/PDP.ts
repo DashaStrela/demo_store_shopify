@@ -1,6 +1,10 @@
 class PDP {
     add_to_cart(){
-        cy.get('#ProductSubmitButton-template--22014400626983__main').click();
+        cy.get('#ProductSubmitButton-template--16820985397426__main').click();
+    }
+
+    buy_it_now(){
+        cy.contains('Buy it now').click();
     }
 
     your_cart(){

@@ -1,11 +1,11 @@
 class StartPage {
 
     visit() {
-        cy.visit('https://merkle-qa-demo-store.myshopify.com/');
+        cy.visit('https://drias-personal-store.myshopify.com/');
     }
 
     login() {
-        cy.get('#password').type('naifla');
+        cy.get('#password').type('rtewso');
         cy.get('[type="submit"]').click();
     }
 }
